@@ -1,0 +1,25 @@
+.movie-list {
+    width: 300px;
+    max-width: 100%;
+    min-height: 200px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 4px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    background: #fff;
+    cursor: move;
+    box-shadow: 4px 4px 0px -1px rgb(157, 156, 156);
+}
+
+.movie-item:hover {
+    background-color: #898989;
+}
